@@ -22,10 +22,12 @@
             background-position: center;
             min-height: 1000px;
         }
+
         .section {
             padding-top: 3vw;
             padding-bottom: 3vw;
         }
+
         @media screen and (max-width: 670px) {
             header {
                 min-height: 500px;
@@ -73,6 +75,16 @@
                 </p>
             </div>
         </div>
+    </section>
+
+    <!-- parallax #1; break section container up to have the parallax effect-->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="images/bronxSunsetMiguelSanchez.jpg" alt="4train" class="responsive-img">
+        </div>
+    </div>
+
+    <section>
         <!-- second row for contact information -->
         <div class="row">
             <div class="col s12 l4 push-l7 offset-l1">
@@ -87,7 +99,16 @@
                 </p>
             </div>
         </div>
+    </section>
 
+    <!-- parallax #2-->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="images/mecoxBeachSagSummerFamily.png" alt="mecox" class="responsive-img">
+        </div>
+    </div>
+
+    <section>
         <!-- third row for portfolio information -->
         <div class="row">
             <div class="col s12 l4">
@@ -104,12 +125,6 @@
         </div>
     </section>
 
-    <!-- parallax -->
-<div class="parallax-container">
-    <div class="parallax">
-        <img src="" alt="">
-    </div>
-</div>
 
     <!-- services / tabs -->
 
@@ -128,6 +143,7 @@
         $(document).ready(function () {
             $('.sidenav').sidenav();
             $('.materialboxed').materialbox();
+            $('.parallax').parallax();
         });
     </script>
 
