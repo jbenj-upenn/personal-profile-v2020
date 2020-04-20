@@ -41,10 +41,17 @@
         /* color: #0e4e19;
         } */
 
-        */ @media screen and (max-width: 670px) {
+        @media screen and (max-width: 670px) {
             header {
                 min-height: 500px;
+                height: 78px;
+                line-height: px;
             }
+        }
+
+        .nav-wrapper {
+            height: 78px;
+            line-height: 32px;
         }
     </style>
 </head>
@@ -56,38 +63,46 @@
             <div class="container">
 
                 <!-- more work needs to be done on the formatting of these elements on small screens -->
-                <a href="" class="brand-logo">Joshua David Benjamin</a>
-                <a href="" class="sidenav-trigger" data-target="mobile-menu">
-                    <i class="material-icons">menu</i>
-                </a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="#bio">Bio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <!-- <li><a href="#inPageContact">Quick Message!</a></li> -->
+                <div class="row">
+                    <div class="col s12 m8 l4">
+                        <a href="" class="brand-logo">Joshua David Benjamin</a>
+                        <a href="" class="sidenav-trigger" data-target="mobile-menu">
+                            <i class="material-icons">menu</i>
+                        </a>
+                    </div>
+                    <div class="col s12 l8 push-l2">
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="#bio">Bio</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <!-- <li><a href="#inPageContact">Quick Message!</a></li> -->
 
-                    <!-- social media links with fontawesome -->
-                    <li><a href="https://github.com/jbenj-upenn"
-                            class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="GitHub">
-                            <i class="fab fa-github"></i>
-                        </a></li>
-                    <li><a href="https://www.linkedin.com/in/joshua-benjamin-046a7196/"
-                            class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="LinkedIn">
-                            <i class="fab fa-linkedin"></i>
-                        </a></li>
-                    <li><a href="https://www.instagram.com/joshua7david/"
-                            class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Instagram">
-                            <i class="fab fa-instagram"></i>
-                        </a></li>
-                    <li><a href="https://www.facebook.com/joshua.benjamin.311?ref=bookmarks"
-                            class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Facebook">
-                            <i class="fab fa-facebook"></i>
-                        </a></li>
-                    <li><a href="https://twitter.com/JoshuaDBenjamin"
-                            class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Twitter">
-                            <i class="fab fa-twitter"></i>
-                        </a></li>
-                </ul>
+                            <!-- social media links with fontawesome -->
+                            <li><a href="https://github.com/jbenj-upenn"
+                                    class="tooltipped btn-floating btn-small indigo lighten-1" data-tooltip="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a></li>
+                            <li><a href="https://www.linkedin.com/in/joshua-benjamin-046a7196/"
+                                    class="tooltipped btn-floating btn-small indigo" data-tooltip="LinkedIn">
+                                    <i class="fab fa-linkedin"></i>
+                                </a></li>
+                            <li><a href="https://www.instagram.com/joshua7david/"
+                                    class="tooltipped btn-floating btn-small indigo darken-1" data-tooltip="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a></li>
+                            <li><a href="https://www.facebook.com/joshua.benjamin.311?ref=bookmarks"
+                                    class="tooltipped btn-floating btn-small indigo darken-2" data-tooltip="Facebook">
+                                    <i class="fab fa-facebook"></i>
+                                </a></li>
+                            <li><a href="https://twitter.com/JoshuaDBenjamin"
+                                    class="tooltipped btn-floating btn-small indigo darken-3" data-tooltip="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
                 <!-- mobile phone with menu icon for smaller screens -->
                 <ul class="sidenav grey lighten-2" id="mobile-menu">
                     <li><a href="#bio">Bio</a></li>
@@ -156,8 +171,11 @@
                         <a href="mailto:jbenj@sas.upenn.edu">Email</a>
                         <a href="tel:1-717-538-0866">Phone Call</a>
                         <a href="sms:1-717-538-0866">Text</a>
-                        <h6 class="white-text">Alternatively, see my resume at <a href="https://github.com/jbenj-upenn/personal-profile-v2020/blob/master/RESUME.txt">github.com</a></h6>
-                        <h6 class="white-text">or use one of the Social Media icons at the top or bottom of the page. Make contact however you prefer!</h6>
+                        <h6 class="white-text">Alternatively, see my resume at <a
+                                href="https://github.com/jbenj-upenn/personal-profile-v2020/blob/master/RESUME.txt">github.com</a>
+                        </h6>
+                        <h6 class="white-text">or use one of the Social Media icons at the top or bottom of the page.
+                            Make contact however you prefer!</h6>
                     </div>
                 </div>
             </div>
@@ -181,7 +199,7 @@
             <div class="col s12 l6 offset-l1">
                 <h2 class="indigo-text text-darken-4">Portfolio</h2>
                 <h5><a href="portfolio.html">See My Profile Page here</a></h5>
-                
+
             </div>
         </div>
     </section>
@@ -194,7 +212,7 @@
     </div>
 
     <!-- services / tabs: I intend to include this to an extracurricular page for fun to potentially discuss other services -->
-    
+
     <!-- <section class="container-section">
         <div class="row">
             <div class="col s12 l4">
@@ -259,9 +277,9 @@
                 <h2 class="indigo-text text-darken-4">Get In Touch</h2>
                 <p>Feel free to send me a message here with any inquiries you might have!
                 </p>
-                <p>Alternatively, see the contact information above. 
+                <p>Alternatively, see the contact information above.
                 </p>
-                
+
             </div>
             <div class="col s12 l5">
                 <form action="">
@@ -325,7 +343,7 @@
                     </p>
                     <p>Bronx-Native Mecox-Beach-Sag-Summer Member
                     </p>
-                    <p>Reader of Everything 
+                    <p>Reader of Everything
                     </p>
                     <p>The Gaps are Filled in with Family, Friends, Food and Drinks. And Sleep.
                     </p>
