@@ -27,7 +27,8 @@
             padding-top: 3vw;
             padding-bottom: 3vw;
         }
-/* grabbed rules from inspecting the page to change css later */
+
+        /* grabbed rules from inspecting the page to change css later */
         /* .tabs .tab a:focus,
         .tabs .tab a:focus.active {
             background-color: rgba(53, 16, 112, 0.2);
@@ -37,10 +38,10 @@
         .tabs .tab a:hover,
         .tabs .tab a.active {
             /* background-color: transparent; */
-            color: #0e4e19;
-        } */
+        color: #0e4e19;
+        }
 
-        @media screen and (max-width: 670px) {
+        */ @media screen and (max-width: 670px) {
             header {
                 min-height: 500px;
             }
@@ -229,8 +230,32 @@
                     </div>
                     <div class="input-field">
                         <i class="material-icons prefix">message</i>
+                        <!-- can't get messages to function -->
                         <textarea id="message" class="materialize-textarea" cols="30" rows="10"></textarea>
-                        <label for="messaage">Your Message</label>
+                        <label for="messaage">Your Message (hover your clicker over the line below)</label>
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-calendar-alt fa-2x prefix"></i>
+                        <input type="text" id="date" class="datepicker">
+                        <label for="date">Choose a date you need me</label>
+                    </div>
+                    <div class="input-field">
+                        <p>Services required</p>
+                        <p>
+                            <label>
+                                <input type="checkbox">
+                                <span>Coding</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox">
+                                <span>Language Instruction</span>
+                            </label>
+                        </p>
+                    </div>
+                    <div class="input-field center">
+                        <button class="btn">Submit</button>
                     </div>
                 </form>
             </div>
@@ -238,7 +263,6 @@
     </section>
 
 
-    <!-- footer -->
 
 
     <!-- jQuery download minimized -->
@@ -251,6 +275,9 @@
             $('.materialboxed').materialbox();
             $('.parallax').parallax();
             $('.tabs').tabs();
+            $('.datepicker').datepicker({
+                disableWeekends: true
+            });
         });
     </script>
 
