@@ -27,6 +27,18 @@
             padding-top: 3vw;
             padding-bottom: 3vw;
         }
+/* grabbed rules from inspecting the page to change css later */
+        /* .tabs .tab a:focus,
+        .tabs .tab a:focus.active {
+            background-color: rgba(53, 16, 112, 0.2);
+            outline: none;
+        }
+
+        .tabs .tab a:hover,
+        .tabs .tab a.active {
+            /* background-color: transparent; */
+            color: #0e4e19;
+        } */
 
         @media screen and (max-width: 670px) {
             header {
@@ -125,12 +137,106 @@
         </div>
     </section>
 
+    <!-- parallax #3-->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="images/graffitiAlleyMissiFlickr.png" alt="graffitialley" class="responsive-img">
+        </div>
+    </div>
 
     <!-- services / tabs -->
+    <section class="container-section">
+        <div class="row">
+            <div class="col s12 l4">
+                <h2 class="indigo-text text-darken-4">
+                    What I Do
+                </h2>
+                <p>a;ldsfjasdkljfawljf
+                    ladsfklajsd;fkljadsjf
+                    a;klsdjf;jad;klfjasd
+                    <p>a;ldsfjasdkljfawljf
+                        ladsfklajsd;fkljadsjf
+                        a;klsdjf;jad;klfjasd
+                    </p>
+            </div>
+            <div class="col s12 l6 offset-l2">
+                <ul class="tabs">
+                    <li class="tab col s6">
+                        <a href="#coding" class="indigo-text text-darken-4">Coding</a>
+                    </li>
+                    <li class="tab col s6">
+                        <a href="#language" class="indigo-text text-darken-4">Language Instruction</a>
+                    </li>
+                </ul>
+                <div class="col s12" id="coding">
+                    <p class="flow-text indigo-text text-darken-4">CODING</p>
+                    <p>a;lsdjf;klajdsf
+                        a;lsdfasdjfkljad
+                        ;lasd;fja;lfjd
+                    </p>
+                    <p>a;lsdjf;klajdsf
+                        a;lsdfasdjfkljad
+                        ;lasd;fja;lfjd
+                    </p>
+                </div>
+                <div class="col s12" id="language">
+                    <p class="flow-text indigo-text text-darken-4">LANGUAGE INSTRUCTION</p>
+                    <p>a;lsdjf;klajdsf
+                        a;lsdfasdjfkljad
+                        ;lasd;fja;lfjd
+                    </p>
+                    <p>a;lsdjf;klajdsf
+                        a;lsdfasdjfkljad
+                        ;lasd;fja;lfjd
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- parallax -->
+    <!-- parallax #4-->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="images/AI.generalimage.png" alt="AI" class="responsive-img">
+        </div>
+    </div>
 
-    <!-- contact form -->
+
+    <!-- contact form started-->
+    <section class="container-section" id="contact">
+        <div class="row">
+            <div class="col s12 l5">
+                <h2 class="indigo-text text-darken-4">Get In Touch</h2>
+                <p>a;lsdhflajdf;kladsjfj
+                    ;lasdjfdjadf;ladjsfkladjfkj
+                    akld;jfjadfjasd;lkjfda
+                </p>
+                <p>a;lsdhflajdf;kladsjfj
+                    ;lasdjfdjadf;ladjsfkladjfkj
+                    akld;jfjadfjasd;lkjfda
+                </p>
+                <p>a;lsdhflajdf;kladsjfj
+                    ;lasdjfdjadf;ladjsfkladjfkj
+                    akld;jfjadfjasd;lkjfda
+                </p>
+            </div>
+            <div class="col s12 l5 offset-l2">
+                <form action="">
+                    <div class="input-field">
+                        <i class="material-icons prefix">email</i>
+                        <input type="email" id="email">
+                        <label for="email">Enter Your email</label>
+                    </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix">message</i>
+                        <textarea id="message" class="materialize-textarea" cols="30" rows="10"></textarea>
+                        <label for="messaage">Your Message</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
 
     <!-- footer -->
 
@@ -144,6 +250,7 @@
             $('.sidenav').sidenav();
             $('.materialboxed').materialbox();
             $('.parallax').parallax();
+            $('.tabs').tabs();
         });
     </script>
 
