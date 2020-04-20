@@ -31,7 +31,7 @@
         }
 
 
-        */ @media screen and (max-width: 670px) {
+        @media screen and (max-width: 670px) {
             header {
                 min-height: 500px;
             }
@@ -40,6 +40,15 @@
                 padding: 50px;
             }
         }
+
+        .nav-wrapper {
+            height: 78px;
+            line-height: 32px;
+        }
+
+        #portfolioList {
+            border-radius: 30px;
+        }
     </style>
 </head>
 
@@ -47,37 +56,44 @@
     <!-- navbar -->
     <nav class="nav-wrapper indigo darken-4">
         <div class="container">
-            <a href="index.html" class="brand-logo">Joshua David Benjamin</a>
-            <a href="" class="sidenav-trigger" data-target="mobile-menu">
-                <i class="material-icons">menu</i>
-            </a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="index.html#bio">Bio</a></li>
-                <li><a href="index.html#contact">Contact</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
+            <div class="row">
+                <div class="col s12 m8 l4">
+                    <a href="index.html" class="brand-logo">Joshua David Benjamin</a>
+                    <a href="" class="sidenav-trigger" data-target="mobile-menu">
+                        <i class="material-icons">menu</i>
+                    </a>
+                </div>
+                <div class="col s12 l8 push-l2">
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="index.html#bio">Bio</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
 
-                <!-- social media links with fontawesome -->
-                <li><a href="https://github.com/jbenj-upenn" class="tooltipped btn-floating btn-small indigo darken-4"
-                        data-tooltip="GitHub">
-                        <i class="fab fa-github"></i>
-                    </a></li>
-                <li><a href="https://www.linkedin.com/in/joshua-benjamin-046a7196/"
-                        class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="LinkedIn">
-                        <i class="fab fa-linkedin"></i>
-                    </a></li>
-                <li><a href="https://www.instagram.com/joshua7david/"
-                        class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Instagram">
-                        <i class="fab fa-instagram"></i>
-                    </a></li>
-                <li><a href="https://www.facebook.com/joshua.benjamin.311?ref=bookmarks"
-                        class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Facebook">
-                        <i class="fab fa-facebook"></i>
-                    </a></li>
-                <li><a href="https://twitter.com/JoshuaDBenjamin"
-                        class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Twitter">
-                        <i class="fab fa-twitter"></i>
-                    </a></li>
-            </ul>
+                        <!-- social media links with fontawesome -->
+                        <li><a href="https://github.com/jbenj-upenn"
+                                class="tooltipped btn-floating btn-small indigo lighten-1" data-tooltip="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a></li>
+                        <li><a href="https://www.linkedin.com/in/joshua-benjamin-046a7196/"
+                                class="tooltipped btn-floating btn-small indigo " data-tooltip="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a></li>
+                        <li><a href="https://www.instagram.com/joshua7david/"
+                                class="tooltipped btn-floating btn-small indigo darken-1" data-tooltip="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a></li>
+                        <li><a href="https://www.facebook.com/joshua.benjamin.311?ref=bookmarks"
+                                class="tooltipped btn-floating btn-small indigo darken-2" data-tooltip="Facebook">
+                                <i class="fab fa-facebook"></i>
+                            </a></li>
+                        <li><a href="https://twitter.com/JoshuaDBenjamin"
+                                class="tooltipped btn-floating btn-small indigo darken-3" data-tooltip="Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+
             <!-- mobile phone with menu icon for smaller screens -->
 
 
@@ -92,8 +108,8 @@
 
     <!-- links to github projects -->
     <section>
-        <div class="row">
-            <div class="col l10 center-align push-l1">
+        <div class="row" id="portfolioList">
+            <div class="col s12 m12 l10 center-align push-l1">
                 <ul class="collection with-header">
                     <li class="collection-header">
                         <h4>Portfolio</h4>
@@ -119,20 +135,24 @@
                                 class="secondary-content"><i class="material-icons center-align">send</i></a></div>
                     </li>
                 </ul>
+            </div>
+        </div>
+    </section>
 
 
 
 
-                <!-- jQuery download minimized -->
-                <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-                <!--JavaScript at end of body for optimized loading-->
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-                <script>
-                    $(document).ready(function () {
-                        $(document).ready(function () {
-                            $('.sidenav').sidenav();
-                        });
-                </script>
+
+    <!-- jQuery download minimized -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(document).ready(function () {
+                $('.sidenav').sidenav();
+            });
+    </script>
 
 
 </body>
