@@ -1,4 +1,6 @@
 # personal-profile-v2020
+You can also access the app here: https://jbenj-upenn.github.io/personal-profile-v2020/
+
 This is a web application that displays some of my biographical/professional information--including my resume, LinkedIn, and GitHub pages--contact information, and an under-construction portfolio page of various projects that I've created during these first two months of learning to code. The intention is to use this as an employer-ready/competitive tool after completion of the Computer Coding Bootcamp at UPenn/Trilogy.
 
 Users can access interactive photos and a portfolio page that is linked, in addition to finding a number of ways to make contact. 
@@ -7,13 +9,6 @@ Future implementations will include
 -further refinement of display properties
 -the implementation of more dynamic programming
 -the limitation of baked-in HTML/CSS code
-
-Installing
-Run index.html on your favorite browser.
-Be sure to keep all files in the same directory.
-Here is a sample of the app: 
-
-You can also access the app by clicking here.
 
 Built With
 Visual Studio Code - standard coding.
