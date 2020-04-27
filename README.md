@@ -28,3 +28,5 @@ Acknowledgments
 A huge thank you to Meguel Chavez, my personal tutor.
 A big thanks to Shaun "Net Ninja" for his invaluable tutorials - iamshaunjp on github.com.
 Thanks to the Materialize team for all of their hard work in developing such a fun and easy-to-use framework.
+
+https://github.com/jbenj-upenn/personal-profile-v2020/blob/master/images/mainPageScreenshot.png
