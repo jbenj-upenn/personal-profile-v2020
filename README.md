@@ -29,4 +29,14 @@ A huge thank you to Meguel Chavez, my personal tutor.
 A big thanks to Shaun "Net Ninja" for his invaluable tutorials - iamshaunjp on github.com.
 Thanks to the Materialize team for all of their hard work in developing such a fun and easy-to-use framework.
 
+## Images
+# Main Page
+![mainPageScreenshot](https://user-images.githubusercontent.com/59940368/80396204-50be5b80-8882-11ea-9abd-fa645a06d3bd.png)
+# Main Page #2
+![mainPageScreenshot2](https://user-images.githubusercontent.com/59940368/80396222-574cd300-8882-11ea-878a-d082dea22cab.png)
+# Main Page Footer
+![mainPageFooter](https://user-images.githubusercontent.com/59940368/80396238-5b78f080-8882-11ea-848c-678c24961f99.png)
+
+# Portfolio
+![portfolioScreenshot](https://user-images.githubusercontent.com/59940368/80396250-5fa50e00-8882-11ea-8922-abd2a74d287f.png)
 
