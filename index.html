@@ -16,12 +16,21 @@
         integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <title>Joshua Benjamin: Professional Profile</title>
     <style>
-        header {
-            background: url(images/blueKeyboard.png);
-            background-size: cover;
-            background-position: center;
-            min-height: 1000px;
-        }
+        
+
+        body {
+    background-image: url("images/blueKeyboard.png");
+    height: 100%;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-color: gray;
+    background-attachment: fixed;
+    background-position: center bottom 1%;
+    background-size: 75%;
+    max-width: 95%;
+}
 
         .section {
             padding-top: 3vw;
@@ -114,9 +123,9 @@
     <!-- photo / grid -->
     <!-- first row for biographical information -->
     <section class="container section scrollspy" id="bio">
-        <div class="row">
+        <div class="row" style="background-color: white; padding: 10px;">
             <div class="col s12 l3">
-                <img src="images/profile.png" alt="profile" class="responsive-img materialboxed">
+                <img src="images/profile.png" alt="profile" class="responsive-img materialboxed" style="margin-top: 20px;">
             </div>
 
             <div class="col s12 l1 offset-l1">
@@ -187,7 +196,7 @@
 
     <section class="container section scrollspy" id="portfolio">
         <!-- third row for portfolio information -->
-        <div class="row">
+        <div class="row" style="background-color: white; padding: 10px;">
             <div class="col s12 l4">
                 <img src="images/shooting.wide.png" alt="shooting" class="responsive-img materialboxed">
             </div>
