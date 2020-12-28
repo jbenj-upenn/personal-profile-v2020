@@ -1,5 +1,5 @@
 # personal-profile-v2020
-You can also access the app here: https://jbenj-upenn.github.io/personal-profile-v2020/
+You can access the app here: https://jbenj-upenn.github.io/personal-profile-v2020/
 
 # Description
 This is a web application that displays some of my biographical/professional information--including my resume, LinkedIn, and GitHub pages--contact information, and an under-construction portfolio page of various projects that I've created during these first two months of learning to code. The intention is to use this as an employer-ready/competitive tool after completion of the Computer Coding Bootcamp at UPenn/Trilogy.
