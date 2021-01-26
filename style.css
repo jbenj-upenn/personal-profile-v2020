@@ -1,6 +1,6 @@
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 .header {
-    position: fixed;
+    position: relative;
     top: 0;
     width: 100%
   }
