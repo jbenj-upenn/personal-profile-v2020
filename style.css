@@ -5,6 +5,11 @@
     width: 100%
   }
 
+#amberStreet {
+  width: 100%;
+}
+
+
   /* in an effort to get buttons to align vertically
   /* .buttons {
     vertical-align:0rem;
