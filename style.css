@@ -9,6 +9,10 @@
   width: 100%;
 }
 
+.links {
+  vertical-align: middle;
+}
+
 
   /* in an effort to get buttons to align vertically
   /* .buttons {
