@@ -32,6 +32,9 @@
             background-size: 100%;
             max-width: 100%;
         }
+        a {
+        color: rgb(5, 117, 161); /* Change this to the color you want */
+    }
         .section {
             padding-top: 3vw;
             padding-bottom: 3vw;
@@ -94,23 +97,13 @@
     <!-- first row for biographical information -->
     <section class="container section scrollspy" id="bio">
         <div class="row" style="background-color: white; padding: 10px; border-radius: 10px;">
-            <div class="col s12 l3">
-                <img src="images/profile2.png" alt="profile" class="responsive-img materialboxed"
-                    style="margin-top: 20px; border-radius: 5px;">
-                <h6>Reach me via email at <strong>joshuasevendavid@gmail.com</strong></h6>
-                <h6>Please click here to see my <strong><a href="./documents/resumeSQTE_03Apr2023.pdf" alt="JDB CV Joshua Benjamin Curriculum Vitae" style="color:#0602f7">résumé</a></strong>
-                </h6>
-            </div>
-
-            <div class="col s12 l3 offset-l1">
-                <h2 class="indigo-text text-darken-4">Bio:</h2>
-            </div>
-            <div class="col s12 l4 push-l1">
+            <div class="col s12 l5 ">
+                <h2 class="indigo-text text-darken-4; align-text:">The Bird's Eye:</h2>
                 <ul>
                     <li><strong>***Born and raised</strong> in the Bronx, NYC, living and working in
                         Philly/Lancaster,PA-areas</li>
-                    <li><strong>***Received certification</strong> as a full-stack (front-end/back-end) computer coder
-                        through the University of Pennsylvania and Trilogy Educational Services</li>
+                    <li><strong>***Received certificate</strong> as a full-stack web dev
+                        through UPenn and Trilogy; just a hobby!</li>
                     <li>
                     <li><strong>***Software Development Engineer in Test</strong> </li>
                     <li><strong>***Master's degree</strong>: TESL (Teaching English to Non-Native English Speakers)</li>
@@ -119,7 +112,17 @@
                     </li>
                 </ul>
             </div>
-
+            <div class="col s12 l5 push-l1">
+                <img src="images/profile2.png" alt="profile" class="responsive-img materialboxed"
+                    style="margin-top: 20px; border-radius: 5px;">
+                
+            </div>
+        </div>
+        <div class="row" style="background-color: white; padding: 10px; border-radius: 10px;">
+            <h6>Personal email: <a href="mailto:joshuasevendavid@gmail.com"><strong>joshuasevendavid@gmail.com</strong></a></h6>
+            <h6>Professional email: <a href="mailto:joshua.benjamin.sdet@gmail.com"><strong>joshua.benjamin.sdet@gmail.com</strong></a></h6>
+            <h6>See my <strong><a href="./documents/resumeSQTE_03Apr2023.pdf" alt="JDB CV Joshua Benjamin Curriculum Vitae" style="color:#0602f7">résumé</a></strong>
+            </h6>
         </div>
     </section>
     <!-- parallax #1; break section container up to have the parallax effect -->
